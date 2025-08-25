@@ -19,4 +19,26 @@ int main() {
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
     return 0;
+
+  #include <stdio.h> 
+int main() {
+    // Declaração de variáveis (dados de uma cidade em Alagoas)
+    char Estado[] = "Alagoas";
+    char Codigo_da_carta[] = "AL1";
+    char Nome_da_Cidade[] = "Arapiraca";
+    int Populacao = 234696;
+    float Area_km2 = 351.0;
+    double PIB = 5915937693.00;
+    int Pontos_Turisticos = 10;
+
+    // Impressão dos dados armazenados
+    printf("Estado: %s\n", Estado);
+    printf("Codigo da carta: %s\n", Codigo_da_carta);
+    printf("Cidade: %s\n", Nome_da_Cidade);
+    printf("Populacao: %d\n", Populacao);
+    printf("Area: %.2f km²\n", Area_km2);
+    printf("PIB: %.2lf\n", PIB);
+    printf("Numero de pontos turisticos: %d\n", Pontos_Turisticos);
+
+    return 0; //
 }
